@@ -7,7 +7,6 @@ const InputBox = ({
     // eslint-disable-next-line react/prop-types
     currencyDisable = false, amount, classname, label,
 }) => {
-    console.log(currency, "hiiiiiiii")
     const inRef = useRef(null);
     const selectFun = () => {
         inRef?.current.select()
@@ -42,7 +41,7 @@ const InputBox = ({
                     value={selectCurrency}
                     disabled={currencyDisable}>
                     {
-                        currency.map(e => (<option key={e} value={e}>{e}</option>))
+                        currency.map(e => (<option key={e} >{e}</option>))
                     }
                 </select>
             </div>
