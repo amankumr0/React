@@ -21,7 +21,6 @@ function App() {
   const convert = () => {
     setConverted(amount * currencyInfo[to]);
   }
-  console.log(option)
   return (
     <div style={{ background: `url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80')` }}
       className="h-screen w-full flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
